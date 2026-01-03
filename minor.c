@@ -12,7 +12,7 @@ int main() {
     scanf("%d", &enteredPin);
 
     if (enteredPin != pin) {
-        printf("❌ Incorrect PIN! Access Denied.\n");
+        printf(" Incorrect PIN! Access Denied.\n");
         return 0;
     }
 
@@ -27,7 +27,7 @@ int main() {
 
         switch (choice) {
             case 1:
-                printf("💰 Current Balance: %.2f\n", balance);
+                printf("Current Balance: %.2f\n", balance);
                 break;
 
             case 2:
@@ -36,12 +36,12 @@ int main() {
 
                 if (amount > 0 && amount <= balance) {
                     balance -= amount;
-                    printf("✅ Withdrawal Successful!\n");
+                    printf("Withdrawal Successful!\n");
                     printf("Updated Balance: %.2f\n", balance);
                 } else if (amount > balance) {
-                    printf("❌ Insufficient Balance!\n");
+                    printf("Insufficient Balance!\n");
                 } else {
-                    printf("❌ Invalid Amount!\n");
+                    printf("Invalid Amount!\n");
                 }
                 break;
 
@@ -51,19 +51,19 @@ int main() {
 
                 if (amount > 0) {
                     balance += amount;
-                    printf("✅ Deposit Successful!\n");
+                    printf("Deposit Successful!\n");
                     printf("Updated Balance: %.2f\n", balance);
                 } else {
-                    printf("❌ Invalid Amount!\n");
+                    printf("Invalid Amount!\n");
                 }
                 break;
 
             case 4:
-                printf("🙏 Thank you for using the ATM. Goodbye!\n");
+                printf("Thank you for using the ATM. Goodbye!\n");
                 break;
 
             default:
-                printf("❌ Invalid Choice! Please try again.\n");
+                printf("Invalid Choice! Please try again.\n");
         }
 
     } while (choice != 4);
