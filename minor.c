@@ -1,3 +1,5 @@
+// ATM Withdrawal Simulation
+
 #include <stdio.h>
 
 int main() {
