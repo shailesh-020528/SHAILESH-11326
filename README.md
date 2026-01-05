@@ -8,7 +8,7 @@ To simulate a complete ATM system that allows a user to securely log in using a 
 
 
 
-🧠 Features of Full ATM System
+🧠 Features of Full ATM System :-
 
 
 ✅ PIN-based login
@@ -27,7 +27,7 @@ To simulate a complete ATM system that allows a user to securely log in using a 
 
 
 
-🛠 Tech Stack
+🛠 Tech Stack:-
 
 
 Language: C
@@ -38,7 +38,7 @@ Version Control: GitHub
 
 
 
-🧩 Concepts Used
+🧩 Concepts Used :-
 
 
 Variables & Data Types
@@ -56,7 +56,7 @@ Basic security logic (PIN)
 
 
 
-🧭 Algorithm (How the System Works)
+🧭 Algorithm (How the System Works) :-
 
 
 Set an initial balance and a predefined PIN.
@@ -76,4 +76,5 @@ Deposit Money
 Exit
 
 Perform the selected operation.
+
 Repeat until user chooses Exit.
