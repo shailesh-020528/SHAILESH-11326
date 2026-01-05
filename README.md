@@ -3,14 +3,11 @@ ATM Management System
 
 
 🎯 Aim :-
-
 To simulate a complete ATM system that allows a user to securely log in using a PIN and perform multiple banking operations such as balance inquiry, cash withdrawal, cash deposit, and exit.
 
 
 
 🧠 Features of Full ATM System :-
-
-
 ✅ PIN-based login
 
 ✅ Check balance
@@ -28,8 +25,6 @@ To simulate a complete ATM system that allows a user to securely log in using a 
 
 
 🛠 Tech Stack:-
-
-
 Language: C
 
 IDE: VS Code
@@ -39,8 +34,6 @@ Version Control: GitHub
 
 
 🧩 Concepts Used :-
-
-
 Variables & Data Types
 
 Conditional Statements (if-else)
@@ -57,8 +50,6 @@ Basic security logic (PIN)
 
 
 🧭 Algorithm (How the System Works) :-
-
-
 Set an initial balance and a predefined PIN.
 
 Ask the user to enter the ATM PIN.
